@@ -4,6 +4,62 @@ def reload
   load 'config/environment.rb'
 end
 
+#BAKERY
+
+# bakery1 = Bakery.new("Muffins and CO")
+# bakery2 = Bakery.new("GT Chocolate")
+# bakery3 = Bakery.new("Home SWEET Home")
+#
+# dessert1 = Dessert.new("Lemon Cake", bakery3)
+# dessert2 = Dessert.new("Chocolate Satisfaction", bakery2)
+# dessert3 = Dessert.new("Lime Key", bakery1)
+# dessert4 = Dessert.new("White COCO", bakery2)
+#
+# ingredient1 = Ingredient.new("Flour", 20, dessert2)
+# ingredient2 = Ingredient.new("Chocolate", 80, dessert1)
+# ingredient3 = Ingredient.new("Salt", 5, dessert3)
+# ingredient4 = Ingredient.new("Sugar", 50, dessert4)
+# ingredient5 = Ingredient.new("Chocolate Chips", 70, dessert2)
+# ingredient6 = Ingredient.new("Vanila extract", 5, dessert2)
+# ingredient7 = Ingredient.new("Egg", 80, dessert2)
+# ingredient8 = Ingredient.new("Chocolate Mousee", 78, dessert3)
+# ingredient9 = Ingredient.new("White egg", 30, dessert3)
+
+# puts bakery1.ingredients
+# puts bakery2.desserts
+# puts bakery2.average_calories
+# puts bakery2.shopping_list
+# puts dessert2.ingredients
+# puts dessert2.bakery
+# puts dessert2.calories
+# puts dessert1.calories
+# puts ingredient7.bakery
+# print Ingredient.find_all_by_name("Chocolate")
+# puts Ingredient.find_all_by_name("EgG")
+
+
+# Pry.start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #IMDB
 
